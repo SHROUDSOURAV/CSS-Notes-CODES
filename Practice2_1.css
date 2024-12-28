@@ -1,0 +1,8 @@
+/* create a div with height & width of 100px */
+/* set its background color to green & border-radius to 50% */
+div{
+    background-color:green;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}

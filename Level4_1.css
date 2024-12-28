@@ -1,0 +1,77 @@
+/* Flexbox is short for the Flexible Box Layout module. */
+/* Flexbox is a layout method for arranging items in rows or columns. */
+/* Flexbox makes it easier to design a flexible responsive layout structure, without using float or positioning. */
+/* flex direction sets how flex items are placed in the flex container, along which axis and direction */
+
+
+
+body{
+    text-align:center;
+}
+
+div{
+    height:100px;
+    width:200px;
+    display:inline-block;
+    border:2px black solid;
+}
+
+#container{
+    width:800px;
+    height:200px;
+
+    /* display:flex used to start using the flexbox */
+    /* used for arranging various elements in different orders */
+    display:flex;
+
+    /* flex direction sets how flex items are placed in the flex container, along which axis and direction */
+    /* flexbox direction (default) = row (left to right) */
+    /* flexbox direction: row-reverse (right to left) */
+    /* flexbox direction: column (top to bottom) */
+    /* flexbox direction: column-reverse (bottom to top) */
+    flex-direction:row;
+
+    /* justify-content: property in flexbox using CSS */
+    /* arranges flexitems  positions in baseline, center, end in the flexbox */
+    /* without changing the order of the flexitems in the flexbox */
+    justify-content:center;
+
+    /* align:self alignment of individual along cross axis */
+    /* flex-grow: how much flex item will grow relative to the rest of the flex items if space is available */
+    /* flex-shrink: how much flex item will shrink relative to the rest of the flex items if space is available */
+
+}
+
+/* flex-direction: to kee[ flex items in a certain order */
+/* justify-content: keep flex items in a certain order as per flex-direction */
+/* align-items to keep items aligned as per the axis as well */
+
+#box1{
+    background-color:aqua;
+}
+
+#box2{
+    background-color:pink;
+
+    /* flex-shrink decreases the size of box2 twice as compared to other boxes */
+    flex-shrink:2;
+
+    /* flex-shrink decreases the size of box2 lesser than other boxes by half(0.5) */
+    flex-shrink:0.5;
+
+    /* so more than 1 shrinking more and less than 1 shrinking less compared to other flex-items or boxes */
+
+
+}
+
+#box3{
+    background-color:darkkhaki;
+}
+
+#box4{
+    background-color:indianred;
+}
+
+#box5{
+    background-color:slateblue;
+}

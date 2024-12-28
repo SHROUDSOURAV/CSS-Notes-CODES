@@ -1,0 +1,25 @@
+body{
+    background-color:#f0ec57;
+}
+h1{
+    color:black;
+}
+p{
+    background-color:#748067;    /* set background color */
+    color:black;                /* set font/text color */
+    font-size:larger;            /* set font/text size*/
+}
+h2{
+    /* the word rgb = red green blue */
+    background-color: #e3d87e;  /*red, green, blue in this order */
+    /* red + green = yellow is happening and value of blue is 0  */
+    /* note => max red + max green + max blue = white color */
+    /* range of the colors => 255 */
+    /* max = 255 and min = 0 */
+}
+.color1{    /* setting color using class selector */
+    background-color:#bbcea8;
+}
+#color2{    /* setting color using id selector */
+    background-color:aqua;
+}

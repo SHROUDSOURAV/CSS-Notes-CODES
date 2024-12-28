@@ -1,0 +1,54 @@
+/* sometimes there are some default margins to eliminate them ... */
+/* set universal selector padding and margin to 0 */
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+}
+
+#navbar{
+    background-color:#021627;
+    height:60px;
+}
+
+button{
+    background-color:#f08804;
+}
+
+#logo{
+    color:#f08804;
+    font-size:25px;
+}
+
+a{
+    text-decoration:none;
+    margin-right:200px;
+}
+
+input{
+    color:black;
+}
+
+#content{
+    height:700px;
+}
+
+.contentBox{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    /* we are using inline-block not inline because in inline there are no margins and padding*/
+    /* Width and height */
+    /* Display: inline-block allows you to set a width and height on the element, while display: inline does not.  */
+    /* Margins and paddings */
+    /* Display: inline-block respects top and bottom margins and paddings, while display: inline does not.  */
+    /* Line breaks */
+    /* Display: inline-block does not add a line-break after the element, so the element can sit next to other elements. Display: inline does not have a line break before and after it. */
+    display:inline-block;
+}
+
+footer{
+    background-color:black;
+    text-align:center;
+    background-color:#232F3E;
+}

@@ -1,0 +1,20 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    border:2px solid black;
+    display:inline-block;
+}
+
+/* background-image property to set image into the box */
+/* but image will be pixalated or enlarged so we need to learn another property to resize the image */
+
+/* background-size property */
+/* background-size:cover/contain/auto */
+
+#box1{
+    /* background-cover:cover */
+    /* cover will fit the image completely leaving no space inside the element */
+    background-image:url("./philipp-pilz-QZ2EQuPpQJs-unsplash.jpg");
+    background-size:cover;
+}

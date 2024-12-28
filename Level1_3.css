@@ -1,0 +1,21 @@
+p{
+    /* text can be aligned => left, right, center */
+    text-align:center;  /* text will be aligned to center for paragraph only(text with paragraph) */
+}
+
+h1{
+    /* text decoration properties */
+    /* underline, overline, line-through */
+    /* types of underline ==> black dotted underline, black wavy underline */
+    text-decoration:underline;
+
+    text-align:center;  /* heading will be aligned to center */
+}
+
+h2{
+    text-decoration:line-through;   /* draws a line through the text/content on the element/tag mentioned  */
+}
+
+a{  /* a = anchor tag */
+    text-decoration:none;
+}

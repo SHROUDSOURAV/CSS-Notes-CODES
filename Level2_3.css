@@ -1,0 +1,12 @@
+
+/* div is a block element */
+/* we can change the element display div to inline using the display property */
+/* <!-- eg => display:inline --> */
+/* we need to customize the height or width to give the content within div just enough space */
+/* checkout Level2_3.css file to more information */
+
+div{
+    background-color:pink;
+    /* width:100px; */
+    display:inline;
+}

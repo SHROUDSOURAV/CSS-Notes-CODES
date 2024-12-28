@@ -1,0 +1,48 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    border:2px solid black;
+    display:inline-block;
+}
+/* now lets talk about position property using CSS */
+/* the position property sets how an element will be positioned in a document */
+/* postion: static/relative/absolute/fixed */
+
+
+/* types of position */
+/* static, relative, absolute, fixed, sticky  */
+/* the position property helps us to position our elements based on our specfic needs */
+/* top, right, left, bottom  */
+/* for example => top:20px means the element will position itself 20 pixels from the top of the webpage */
+
+/* STEPS REQUIRED TO POSITION ELEMENTS IN CSS */
+/* step 1 => mention whether the position: static/relative/absolute/fixed/static */
+/* step 2 => mention top/right/bottom/left: (px value)*/
+
+
+#box1{
+    position:static;    /* static = default position of an element */
+                        /* static does not work with position properties */
+
+}
+
+#box2{
+    position:relative;  /* adjusts according to itself */
+    top:10px;   /* moving 10px from itself */
+}
+
+#box3{
+    position:absolute;  /* adjusts according to the parent element  */
+    top:10px;           /* moving 10px fromt the parent element */
+}
+
+/* if position is fixed and top:0px */
+/* even after scrolling down we will see the box come along with it */
+/* ususally used in navigation bars */
+
+#box4{
+    position:fixed;    /* adjusts itself according to the browser window */
+    bottom:20px;    /* position box4 to bottom */
+}
+

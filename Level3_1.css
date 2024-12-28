@@ -1,0 +1,28 @@
+#box1{
+    background-color:green;
+    width:200px;
+    height:200px;
+    /* em works with font-size */
+    /* parent font-size is taken as px and child font-size is taken as em */
+    /* em value/child font-size is taken according to the parent font-size */
+    font-size:10px; 
+}
+
+/* em can be taken for width,height, or font-size */
+/* for rem example width is taken */
+/* for em example font-size is taken */
+/* there is em and rem */
+/* em takes font-size according to the parent */
+/* rem takes font-size based on the root i.e. the most outside element  */
+
+#box2{
+    /* learning to take width as percentage %  in CSS */
+    height:50px;
+    width:30%;  /* 30% of parent-width i.e width of box2 = 30% of box1 width */
+    background-color:yellow;
+    margin-left:10%;
+    font-size:2em;  /* 2em = twice the parent font-size i.e. 10px x 2 = 20px */
+    /* width:5em; */    /* width:5em = child font-size = 5 x font-size of parent font-size */
+    width:5rem;
+}
+

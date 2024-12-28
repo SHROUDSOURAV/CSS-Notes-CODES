@@ -1,0 +1,48 @@
+div{
+    background-color:green;
+    height:50px;    /* so height of the element div will have 50px or 50 pixels */
+    width:100px;    /* so width defines the size or space occupied by the element(100px) in this example   */
+
+    /* now lets checkout what border property does  */
+    /* there are three elements in border  */
+    /* border-width, border-style, border-color */
+    border-width:10px;   /*  border-width gives us the thickness of the border     */
+
+    border-style:solid; /* need to set border-style to check border-width visuallly */
+    /* border-style can be dotted, dashed .etc. checkout below examples */
+    /* border-style:dashed; */
+    /* border-style:dotted */
+
+    border-color:brown; /* border color */
+}
+
+/* upon inspecting h1 it will show 120 x 70  */
+/* 120 being width */
+/* 70 being height */
+/* so the dimension is calculated by width x height */
+h1{
+    background-color:blue;
+    height:70px;
+    width:120px;
+    border-width:5px;   /* thickness of the border */
+    border-style:dotted;    /* border surrounded by dotted lines */
+    border-color:aliceblue; /* border color */
+}
+
+h2{
+    background-color:aqua;
+    height:60px;
+    width:120px;
+    text-align:center;  /* aligning text of the head tag in center as per its width x height */
+    /* lets checkout border shorthand */
+    border:10px solid black;
+
+    /* in border shorthand ... */
+    /* border: border-width border-style border-color in this order it should be specified*/
+
+    /* 10 px = border-width */
+    /* solid = border-style */
+    /* black = border-color */
+    /* 3 in 1 = border shorthand */
+}
+

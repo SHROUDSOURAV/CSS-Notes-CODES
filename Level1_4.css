@@ -1,0 +1,46 @@
+/*  text-properties to learn mentioned below
+    font-weight => makes the text lighter or bolder baseed on the range value (100 - 900)
+    Minimum = 100(lighest) and Maximum = 900(boldest)
+    We are going to apply the font-weight css property on the below headings for visual understanding  */
+
+
+/* font-weight => light,lighter,bold,bolder */
+/* font-weight range => 100 - 900 */
+
+h1{
+    font-weight:100;
+}
+
+h6{
+    font-weight:900;
+}
+
+h2{
+    font-weight:lighter;
+}
+
+h3{
+    font-weight:bolder;
+}
+
+/* below using css properties font-size of paragraph is changed */
+/* font-size attribute used to change font size  */
+/* measurement used in font-size is pixel(px) */
+
+#one{
+    font-size:20px;
+}
+#two{
+    font-size:18px;
+}
+#three{
+    font-size:15px;
+}
+#four{
+    font-size:10px;
+}
+#five{
+    font-size:15px;
+    line-height:30px;   /* incrementing line-height increases spaces between paragraph/text lines */
+                       /*  decrementing line-heigth decreases spaces between paragraph/text lines */
+}

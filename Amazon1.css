@@ -1,0 +1,30 @@
+/* sometimes there are some default margins to eliminate them ... */
+/* set universal selector padding and margin to 0 */
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+}
+
+#navbar{
+    background-color:#0f1111;
+    height:60px;
+}
+
+button{
+    background-color:#f08804;
+}
+
+#logo{
+    color:#f08804;
+    font-size:25px;
+}
+
+a{
+    text-decoration:none;
+    margin-right:200px;
+}
+
+input{
+    color:black;
+}

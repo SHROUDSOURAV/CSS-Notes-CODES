@@ -1,0 +1,9 @@
+#case{
+    text-transform:uppercase;   
+}
+#case2{
+    text-transform:lowercase;
+}
+#case3{
+    text-transform:capitalize;
+}

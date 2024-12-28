@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn CSS Level 2</title>
+    <link rel="stylesheet" href="./Amazon2.css">
+</head>
+<body>
+    <!-- we are using inline-block not inline because in inline there are no margins and padding -->
+    <!-- Width and height -->
+    <!-- Display: inline-block allows you to set a width and height on the element, while display: inline does not. -->
+    <!-- Margins and paddings -->
+    <!-- Display: inline-block respects top and bottom margins and paddings, while display: inline does not. -->
+    <!-- Line breaks -->
+    <!-- Display: inline-block does not add a line-break after the element, so the element can sit next to other elements. Display: inline does not have a line break before and after it. -->
+
+    <header>
+        <div id = "navbar">
+            <a href = "#" id = "logo">amazon.in</a>
+            <a href = "#">Account</a>
+            <a href = "#">My Cart</a>
+            <a href = "#">Contact Us</a>
+            <input placeholder="search Amazon.in">
+            <button>Search</button>
+        </div>
+    </header>
+    <div id = "content">
+        <!-- the first three for rgb => red, green, blue -->
+        <!-- the fourth one is for opacity of the colors(0.5 = opacity level) -->
+        <div class ="contentBox" style = "background-color:rgba(255,0,0,0.5); color:black;">Item1</div>
+        <div class = "contentBox" style = "background-color:rgba(0,255,0,0.5); color:black;">Item2</div>
+        <div class = "contentBox" style = "background-color:rgba(0,0,255,0.5); color:black;">Item3</div>
+    </div>
+    <footer>
+        Made with &hearts; by Amazon <br>
+        © 1996-2024, Amazon.com, Inc. or its affiliates
+    </footer>
+</body>
+</html>

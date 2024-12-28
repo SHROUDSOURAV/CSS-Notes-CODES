@@ -1,0 +1,76 @@
+div{
+    width:100px;
+    height:70px;
+    background-color:rgb(225, 108, 108);
+    border:2px solid black;
+    text-align:center;
+
+    
+    /* in this we are going to learn more about border property */
+    /* border radius => taken in pixels(px) or percentage */
+    /* examples => border-radius: 10px or */
+    /* border:radius: 50%  */
+
+    /* border-radius gives us the round edges of an element  */
+    /* the more the border-radius the bigger the round around the edges */
+    /* the lesser the border-radius the smaller the round around the edges */
+
+
+    border-radius:10px; /* or border-radius:15% */
+}
+
+/* to make a circle box using css properties */
+/* we need to set width and height of the box to square i.e width = height*/
+/* after that set border-radius: 50% to make it circle */
+
+#c1{
+    text-align:center;
+    width:100px;
+    height:100px;
+    border:5px solid black;
+    border-radius:50%;
+}
+
+
+
+/* now lets talk about another property of css */
+/* padding => it is the distance between the border and the content of the elemnt */
+/* padding can be divided into 4 categories */
+/* padding-left  */
+/*  padding-right */
+/* padding-top */
+/* padding-bottom */
+/* padding is taken in pixels(px) */
+/* only mentioning padding will apply the value to top,right,bottom and left equally together <= this is also called padding shorthand*/
+/* padding shorthand => padding:(value in px)pixels */
+/* padding shorthand => padding: top right bottom left (clockwise) */
+/* padding is inside box or content */
+
+#c2{
+    text-align:center;
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+
+/* lets learn about margin property in css */
+/* margin is the distance between border of one to content(box) to the border of another content(box) */
+/* inspect a webpage for better clarification  */
+/* margin-right */
+/* margin-left */
+/* margin-top */
+/* margin-bottom */
+/* margin is outside the box or content */
+
+#c3{
+    text-align:center;
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    padding-left:25px;
+    padding-right:25px;
+    margin-top:50px;
+}

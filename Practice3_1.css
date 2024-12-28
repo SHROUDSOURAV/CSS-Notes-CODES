@@ -1,0 +1,9 @@
+div{
+    height:100px;
+    width:100px;
+    background-image:url("./philipp-pilz-QZ2EQuPpQJs-unsplash.jpg");
+    background-size:cover;
+    color:white;
+    position:absolute;
+    right:0px;
+}
